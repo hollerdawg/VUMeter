@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Student Data\XiLinx ISE Design Suite\VUMeter\VUMeter.ncd
+OUTFILE=D:\Student Data\XiLinx ISE Design Suite\VUMeter\VUMeter.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=D:\Student Data\XiLinx ISE Design Suite\VUMeter
+LICENSE=WebPack
+USER_INFO=210667441_0_0_331

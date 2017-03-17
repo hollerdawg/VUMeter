@@ -1,0 +1,27 @@
+//! **************************************************************************
+// Written by: Map P.28xd on Wed Dec 18 23:48:34 2013
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "V10" LEVEL 1;
+COMP "CS" LOCATE = SITE "M10" LEVEL 1;
+COMP "switch" LOCATE = SITE "T10" LEVEL 1;
+COMP "LED<0>" LOCATE = SITE "U16" LEVEL 1;
+COMP "LED<1>" LOCATE = SITE "V16" LEVEL 1;
+COMP "clk122" LOCATE = SITE "F2" LEVEL 1;
+COMP "LED<2>" LOCATE = SITE "U15" LEVEL 1;
+COMP "LED<3>" LOCATE = SITE "V15" LEVEL 1;
+COMP "LED<4>" LOCATE = SITE "M11" LEVEL 1;
+COMP "LED<5>" LOCATE = SITE "N11" LEVEL 1;
+COMP "LED<6>" LOCATE = SITE "R11" LEVEL 1;
+COMP "Data1" LOCATE = SITE "U11" LEVEL 1;
+COMP "Data2" LOCATE = SITE "J6" LEVEL 1;
+COMP "LED<7>" LOCATE = SITE "T11" LEVEL 1;
+COMP "reset" LOCATE = SITE "A8" LEVEL 1;
+COMP "CS2" LOCATE = SITE "G1" LEVEL 1;
+COMP "clk12" LOCATE = SITE "V11" LEVEL 1;
+TIMEGRP CLK = BEL "U0/div_0" BEL "U0/div_1" BEL "U0/div_2" BEL "U0/div_3" BEL
+        "clk_BUFGP/BUFG";
+TS_clk = PERIOD TIMEGRP "CLK" 10 ns HIGH 50%;
+SCHEMATIC END;
+

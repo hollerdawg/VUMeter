@@ -1,0 +1,83 @@
+#-----------------------------------------------------------
+# PlanAhead v14.2 (64-bit)
+# Build 194362 by xbuild on Fri Jul 20 18:52:11 MDT 2012
+# Start of session at: Fri Dec 13 15:43:19 2013
+# Process ID: 8368
+# Log file: D:/Student Data/XiLinx ISE Design Suite/VUMeter/planAhead_run_1/planAhead.log
+# Journal file: D:/Student Data/XiLinx ISE Design Suite/VUMeter/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -73 day(s)
+INFO: [Device 21-36] Loading parts and site information from D:/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [D:/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [D:/Xilinx/14.2/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {D:/Student Data/XiLinx ISE Design Suite/VUMeter/pa.fromNcd.tcl}
+# create_project -name VUMeter -dir "D:/Student Data/XiLinx ISE Design Suite/VUMeter/planAhead_run_1" -part xc6slx16csg324-3
+Parsing template File [D:/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/verilog.xml].
+Finished parsing template File [D:/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/verilog.xml].
+Parsing template File [D:/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/vhdl.xml].
+Finished parsing template File [D:/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/vhdl.xml].
+Parsing template File [D:/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/ucf.xml].
+Finished parsing template File [D:/Xilinx/14.2/ISE_DS/ISE/data/projnav/templates/ucf.xml].
+create_project: Time (s): elapsed = 00:00:05 . Memory (MB): peak = 415.008 ; gain = 78.305
+# set srcset [get_property srcset [current_run -impl]]
+# set_property design_mode GateLvl $srcset
+# set_property edif_top_file "D:/Student Data/XiLinx ISE Design Suite/VUMeter/VUMeter.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {D:/Student Data/XiLinx ISE Design Suite/VUMeter} }
+# set_property target_constrs_file "VUMeter.ucf" [current_fileset -constrset]
+Adding file 'D:/Student Data/XiLinx ISE Design Suite/VUMeter/VUMeter.ucf' to fileset 'constrs_1'
+# add_files [list {VUMeter.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc6slx16csg324-3
+Release 14.2 - ngc2edif P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Reading design VUMeter.ngc ...
+WARNING:NetListWriters:298 - No output is written to VUMeter.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file VUMeter.edif ...
+ngc2edif: Total memory usage is 81444 kilobytes
+
+Parsing EDIF File [./planAhead_run_1/VUMeter.data/cache/VUMeter_ngc_7d1c0c96.edif]
+Finished Parsing EDIF File [./planAhead_run_1/VUMeter.data/cache/VUMeter_ngc_7d1c0c96.edif]
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Loading clock regions from D:/Xilinx/14.2/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockRegion.xml
+Loading clock buffers from D:/Xilinx/14.2/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockBuffers.xml
+Loading package pin functions from D:/Xilinx/14.2/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from D:/Xilinx/14.2/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/csg324/Package.xml
+Loading io standards from D:/Xilinx/14.2/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from D:/Xilinx/14.2/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : D:/Xilinx/14.2/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [D:/Student Data/XiLinx ISE Design Suite/VUMeter/VUMeter.ucf]
+Finished Parsing UCF File [D:/Student Data/XiLinx ISE Design Suite/VUMeter/VUMeter.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  BUFGP => BUFGP (IBUFG, BUFG): 1 instances
+
+Phase 0 | Netlist Checksum: 77bb1003
+link_design: Time (s): elapsed = 00:00:21 . Memory (MB): peak = 586.820 ; gain = 171.809
+# read_xdl -file "D:/Student Data/XiLinx ISE Design Suite/VUMeter/VUMeter.ncd"
+Release 14.2 - xdl P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+WARNING:XDL:213 - The resulting xdl output will not have LUT equation strings or RAM INIT strings.
+Loading device for application Rf_Device from file '6slx16.nph' in environment D:\Xilinx\14.2\ISE_DS\ISE\.
+   "VUMeter" is an NCD, version 3.2, device xc6slx16, package csg324, speed -3
+Successfully converted design 'D:\Student Data\XiLinx ISE Design Suite\VUMeter\VUMeter.ncd' to 'D:\Student Data\XiLinx ISE Design Suite\VUMeter\VUMeter.xdl'.
+INFO: [Designutils 20-669] Parsing Placement File : D:/Student Data/XiLinx ISE Design Suite/VUMeter/VUMeter.ncd
+INFO: [Designutils 20-658] Finished Parsing Placement File : D:/Student Data/XiLinx ISE Design Suite/VUMeter/VUMeter.ncd
+INFO: [Designutils 20-671] Placed 150 instances
+read_xdl: Time (s): elapsed = 00:00:09 . Memory (MB): peak = 592.066 ; gain = 5.246
+# if {[catch {read_twx -name results_1 -file "D:/Student Data/XiLinx ISE Design Suite/VUMeter/VUMeter.twx"} eInfo]} {
+#    puts "WARNING: there was a problem importing \"D:/Student Data/XiLinx ISE Design Suite/VUMeter/VUMeter.twx\": $eInfo"
+# }
+exit
+INFO: [Common 17-206] Exiting PlanAhead...
+INFO: [Common 17-83] Releasing license: PlanAhead

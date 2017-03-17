@@ -1,0 +1,17 @@
+#:C0     
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 P.28xd
+#Current Working Directory:
+#:D   D:\Student Data\XiLinx ISE Design Suite\VUMeter
+#Date/Time:
+#:T   Fri Dec 13 15:42:51 2013
+#------------------------------
+	#Reading VUMeter.ncd...
+	#Loading device for application Rf_Device from file '6slx16.nph' in environment D:\Xilinx\14.2\ISE_DS\ISE\.
+	#   "VUMeter" is an NCD, version 3.2, device xc6slx16, package csg324, speed -3
+	#Design creation date: 2013.12.13.21.27.13
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+setattr main edit-mode no-logic-changes

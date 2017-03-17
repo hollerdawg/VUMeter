@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/Student Data/XiLinx ISE Design Suite/VUMeter/serialCom.xst" -ofn "D:/Student Data/XiLinx ISE Design Suite/VUMeter/serialCom.syr" 

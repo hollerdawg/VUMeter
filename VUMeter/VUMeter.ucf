@@ -1,0 +1,21 @@
+NET "CLK" LOC = V10 | IOSTANDARD = "LVCMOS33";
+NET "CLK" TNM_NET = "CLK";
+TIMESPEC "TS_clk" = PERIOD "CLK" 10 ns HIGH 50%;
+
+# PlanAhead Generated physical constraints 
+NET "LED[0]" LOC = U16; //T11;
+NET "LED[1]" LOC = V16; //R11;
+NET "LED[2]" LOC = U15; //N11;
+NET "LED[3]" LOC = V15; //M11;
+NET "LED[4]" LOC = M11; //V15;
+NET "LED[5]" LOC = N11; //U15;
+NET "LED[6]" LOC = R11; //V16;
+NET "LED[7]" LOC = T11; //U16;
+NET "CS" LOC = M10;
+NET "Data1" LOC = U11;
+NET "reset" LOC = A8;
+NET "clk12" LOC = V11;
+NET "switch" LOC = T10;
+NET "Data2" LOC = J6;
+NET "CS2" LOC = G1;
+NET "clk122" LOC = F2;
